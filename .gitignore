@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+.env
+.env.*
+.streamlit/secrets.toml
+notebooks/resultados_*/
