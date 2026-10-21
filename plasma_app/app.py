@@ -127,7 +127,7 @@ p=Parameters(mode=mode,compton_model=compton_model,rcs_B_G=rcsB,rcs_sigma_ln_B=r
     synch_nquad=nquad,seed_grid=gridpoints,packets=packets,bins=bins,random_seed=seed,auto_energy_range=auto_range)
 
 st.caption('PLASMA LAB / EMISIÓN Y TRANSFERENCIA')
-st.title('Laboratorio de espectros')
+st.title('Laboratorio de espectros de altas energías')
 st.write('Explora la emisión con tres de los modelos vistos en clase. ')
 
 if 'result' in st.session_state and (
