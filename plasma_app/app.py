@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from physics import Parameters, MODES, calculate
 
-st.set_page_config(page_title='Laboratorio de espectros',page_icon='✦',layout='wide')
+st.set_page_config(page_title='Laboratorio de espectros de altas energías',page_icon='✦',layout='wide')
 st.markdown('''<style>
 .block-container {padding-top:2rem; max-width:1450px}
 [data-testid="stMetric"] {background:#f4f7fb; padding:14px 18px; border-radius:12px; color:#14253b}
@@ -128,8 +128,7 @@ p=Parameters(mode=mode,compton_model=compton_model,rcs_B_G=rcsB,rcs_sigma_ln_B=r
 
 st.caption('PLASMA LAB / EMISIÓN Y TRANSFERENCIA')
 st.title('Laboratorio de espectros')
-st.write('Explora la emisión intrínseca y cómo cambia al atravesar una corona térmica. '
-         'La banda amplia permite seguir los fotones hasta energías gamma.')
+st.write('Explora la emisión con tres de los modelos vistos en clase. ')
 
 if 'result' in st.session_state and (
     'compton_model' not in st.session_state.result['parameters']
